@@ -5,7 +5,29 @@
   "unpublishedModule": {
     "inputsForm": [
       {
-        "children": [],
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "This is a label from input",
+            "id": "okyjozvkdw",
+            "label": "Label",
+            "propertyName": "inputs.Label"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "false",
+            "id": "uxvlslxtms",
+            "label": "Visibility",
+            "propertyName": "inputs.Visibility"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "63",
+            "id": "nrfdbzhnex",
+            "label": "Number",
+            "propertyName": "inputs.Number"
+          }
+        ],
         "id": "fforsajipo",
         "sectionName": ""
       }
@@ -14,7 +36,7 @@
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 699,
+          "bottomRow": 669,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
