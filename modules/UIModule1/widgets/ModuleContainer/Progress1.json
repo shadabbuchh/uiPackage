@@ -1,0 +1,53 @@
+{
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "counterClosewise": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "fillColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "progress"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fillColor": "{{appsmith.theme.colors.primaryColor}}",
+  "isCanvas": false,
+  "isIndeterminate": false,
+  "isLoading": false,
+  "isVisible": "{{Divider1.isVisible}}",
+  "key": "zm20r8xldc",
+  "leftColumn": 8,
+  "mobileBottomRow": 16,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 12,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 12.75,
+  "parentId": "module-canvas-0",
+  "parentRowSpace": 10,
+  "progress": "{{Input1.text}}",
+  "progressType": "linear",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 58,
+  "showResult": false,
+  "steps": "1",
+  "topRow": 10,
+  "type": "PROGRESS_WIDGET",
+  "version": 1,
+  "widgetId": "0lfjgrhjr1",
+  "widgetName": "Progress1"
+}
